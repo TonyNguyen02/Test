@@ -11,8 +11,9 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("mouseover", () => {
-   question.innerHTML = "Du muss auf "yes" drücken";
-   gif.src="https://media.giphy.com/media/G2t01TrStBtdezw0b6/giphy.gif";
+   question.innerHTML = "Du muss auf yes drücken";
+   gif.src=
+     "https://media.giphy.com/media/G2t01TrStBtdezw0b6/giphy.gif";
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
   const maxY = window.innerHeight - noBtnRect.height;
