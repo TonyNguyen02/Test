@@ -11,7 +11,7 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("mouseover", () => {
-   question.innerHTML = "Du muss auf yes drücken";
+   question.innerHTML = "Ich warte...";
    gif.src=
      "https://media.giphy.com/media/G2t01TrStBtdezw0b6/giphy.gif";
   const noBtnRect = noBtn.getBoundingClientRect();
